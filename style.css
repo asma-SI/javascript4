@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1{
+    background-color: rgb(114, 33, 33);
+     padding: 24px;
+     padding-left: 0px;
+     margin: 24px; ;
+     margin-left: 0px;
+     width: 100vw;
+     font-size: xx-large;
+  }
+  .container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+  }
+  .row {
+    display: flex;
+  }
+  .col {
+    height: 65px;
+    width: 65px;
+    border: 1px solid rgb(52, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
